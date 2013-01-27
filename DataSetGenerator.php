@@ -2,6 +2,7 @@
 
 class DataSetGenerator
 {
+    private $nrOfCustomers = 2000;
     /**
      * @var array $products
      */
@@ -11,16 +12,18 @@ class DataSetGenerator
     {
         $this->products = $this->createRandomProducts();
         $customers = array();
-        for ($i = 0; $i < 2000; $i++)
+        for ($i = 0; $i < $this->nrOfCustomers; $i++)
+        {
             $customers[] = $this->createRandomCustomer();
+        }
         return $customers;
     }
 
-    public function createRandomCustomer()
+    private function createRandomCustomer()
     {
         $customer = new Customer();
         $customer->setName($this->randomName());
-        $customer->setVatNumber(substr(str_shuffle("0123456789"), 0, 10));
+        $customer->setVatNumber($this->getRandomVatNumber());
         $nrInvoice = rand(1, 5);
         for ($i = 0; $i < $nrInvoice; $i++) {
             $invoices = array();
@@ -31,7 +34,12 @@ class DataSetGenerator
         return $customer;
     }
 
-    public function randomName()
+    private function getRandomVatNumber()
+    {
+        return substr(str_shuffle("0123456789"), 0, 10);
+    }
+
+    private function randomName()
     {
         return substr(str_shuffle("0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"), 0, 30);
     }
