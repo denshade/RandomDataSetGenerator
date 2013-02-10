@@ -5,12 +5,12 @@ class Invoice
     /**
      * @var array invoiceLines
      */
-    private $invoiceLines;
-    private $documentReference;
+    public $invoiceLines; //public because of json_encode.
+    public $documentReference;
     /**
      * @var DateTime date
      */
-    private $date;
+    public $date;
 
     /**
      * @return array

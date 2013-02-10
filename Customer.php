@@ -2,40 +2,15 @@
 
 class Customer
 {
-    private $name;
-    private $vatNumber;
-
-    private $invoices;
-
-    public function getName()
+    public $_id;// :|  If an object is used, it may not have protected or private properties.
+    public function __construct()
     {
-        return $this->name;
+        $this->_id = rand(1,25000);
     }
+    public $name;
+    public $vatNumber;
 
-    public function setName($name)
-    {
-        $this->name = $name;
-    }
-
-    public function getVatNumber()
-    {
-        return $this->vatNumber;
-    }
-
-    public function setVatNumber($vatNumber)
-    {
-        $this->vatNumber = $vatNumber;
-    }
-
-    public function getInvoices()
-    {
-        return $this->invoices;
-    }
-
-    public function setInvoices(array $invoices)
-    {
-        $this->invoices = $invoices;
-    }
+    public $invoices;
 
 
 }

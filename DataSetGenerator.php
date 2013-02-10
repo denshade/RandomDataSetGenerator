@@ -2,7 +2,7 @@
 
 class DataSetGenerator
 {
-    private $nrOfCustomers = 2000;
+    private $nrOfCustomers = 10000;
     /**
      * @var array $products
      */
@@ -22,15 +22,15 @@ class DataSetGenerator
     private function createRandomCustomer()
     {
         $customer = new Customer();
-        $customer->setName($this->randomName());
-        $customer->setVatNumber($this->getRandomVatNumber());
+        $customer->name = $this->randomName();
+        $customer->vatNumber = $this->getRandomVatNumber();
         $nrInvoice = rand(1, 5);
         for ($i = 0; $i < $nrInvoice; $i++) {
             $invoices = array();
             $invoices[] = $this->createRandomInvoice();
 
         }
-        $customer->setInvoices($invoices);
+        $customer->invoices = $invoices;
         return $customer;
     }
 
@@ -47,7 +47,7 @@ class DataSetGenerator
     private function createRandomInvoice()
     {
         $invoice = new Invoice();
-        $invoice->setDocumentReference($this->randomName());
+        $invoice->documentReference = $this->randomName();
         $date = new DateTime();
         $date->sub(new DateInterval("P".rand(1,5)."D"));
         $invoice->setDate($date);
@@ -56,7 +56,7 @@ class DataSetGenerator
         {
             $invoiceLines[] = $this->createRandomInvoiceLine();
         }
-        $invoice->setInvoiceLines($invoiceLines);
+        $invoice->invoiceLines = $invoiceLines;
         return $invoice;
     }
 
@@ -69,8 +69,8 @@ class DataSetGenerator
         for ($productCounter = 0;$productCounter<self::NR_PRODUCTS; $productCounter++ )
         {
             $product = new Product();
-            $product->setName($this->randomName());
-            $product->setPricePerUnit(rand(1,1000) / 100);
+            $product->name = $this->randomName();
+            $product->pricePerUnit = rand(1,1000) / 100;
             $products[] = $product;
         }
         return $products;
@@ -85,9 +85,9 @@ class DataSetGenerator
         $product = $this->products[rand(0,self::NR_PRODUCTS - 1)];
         $invoiceLine = new InvoiceLine();
 
-        $invoiceLine->setLinePrice($product->getPricePerUnit());
-        $invoiceLine->setProduct($product);
-        $invoiceLine->setQuantity(rand(1,200));
+        $invoiceLine->linePrice = $product->pricePerUnit;
+        $invoiceLine->product = $product;
+        $invoiceLine->quantity = rand(1,200);
         return $invoiceLine;
     }
 }

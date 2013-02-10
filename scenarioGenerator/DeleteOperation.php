@@ -1,6 +1,10 @@
 <?php
 namespace scenarioGenerator;
 
+use Invoice;
+use Customer;
+use InvoiceLine;
+
 class DeleteOperation implements Operation
 {
     public function __construct()

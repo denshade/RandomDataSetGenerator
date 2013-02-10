@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/runner.php" line="8" mnemonic="1" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e74c11a-5624-43d1-bafb-bf577089011d" name="Default" comment="" />
+    <list default="true" id="0e74c11a-5624-43d1-bafb-bf577089011d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Chronometer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ChronometerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/JSONEncodingTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MongoDbTimingGenerator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Customer.php" afterPath="$PROJECT_DIR$/Customer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DataSetGenerator.php" afterPath="$PROJECT_DIR$/DataSetGenerator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Invoice.php" afterPath="$PROJECT_DIR$/Invoice.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InvoiceLine.php" afterPath="$PROJECT_DIR$/InvoiceLine.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Product.php" afterPath="$PROJECT_DIR$/Product.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ScenarioGenerator.php" afterPath="$PROJECT_DIR$/ScenarioGenerator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scenarioGenerator/DeleteOperation.php" afterPath="$PROJECT_DIR$/scenarioGenerator/DeleteOperation.php" />
+    </list>
     <ignored path="datasetGenerator.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,73 +34,28 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="runner.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/runner.php">
+      <file leaf-file-name="ChronometerTest.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ChronometerTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="27" selection-start="182" selection-end="182" vertical-scroll-proportion="-5.8846154">
+            <state line="14" column="33" selection-start="329" selection-end="329" vertical-scroll-proportion="0.5049505">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ScenarioGenerator.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ScenarioGenerator.php">
+      <file leaf-file-name="JSONEncodingTest.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JSONEncodingTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="23" selection-start="29" selection-end="29" vertical-scroll-proportion="-0.65384614">
+            <state line="51" column="5" selection-start="1484" selection-end="1484" vertical-scroll-proportion="-10.961538">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Operation.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scenarioGenerator/Operation.php">
+      <file leaf-file-name="Assert.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/php5.4.11/pear/PHPUnit/Framework/Assert.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="-1.3076923">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeleteOperation.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scenarioGenerator/DeleteOperation.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="0.05345912">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InsertOperation.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scenarioGenerator/InsertOperation.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="-1.3076923">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UpdateOperation.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scenarioGenerator/UpdateOperation.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="6" selection-end="35" vertical-scroll-proportion="-1.3076923">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Product.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Product.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="18" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InvoiceLine.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/InvoiceLine.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="0" selection-start="756" selection-end="756" vertical-scroll-proportion="0.0">
+            <state line="2133" column="0" selection-start="69738" selection-end="69738" vertical-scroll-proportion="-5.3461537">
               <folding />
             </state>
           </provider>
@@ -98,7 +64,16 @@
       <file leaf-file-name="Invoice.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Invoice.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="0" selection-start="942" selection-end="942" vertical-scroll-proportion="0.0">
+            <state line="12" column="10" selection-start="212" selection-end="212" vertical-scroll-proportion="-7.8461537">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InvoiceLine.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InvoiceLine.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="0" selection-start="138" selection-end="138" vertical-scroll-proportion="-6.5384617">
               <folding />
             </state>
           </provider>
@@ -107,7 +82,43 @@
       <file leaf-file-name="Customer.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Customer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="5" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0">
+            <state line="14" column="0" selection-start="265" selection-end="265" vertical-scroll-proportion="-9.153846">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Product.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Product.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="-4.576923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScenarioGenerator.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScenarioGenerator.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="19" selection-start="544" selection-end="544" vertical-scroll-proportion="-10.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="0" selection-start="79" selection-end="79" vertical-scroll-proportion="-3.9230769">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataSetGenerator.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataSetGenerator.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="81" column="11" selection-start="2184" selection-end="2184" vertical-scroll-proportion="-3.7692308">
               <folding />
             </state>
           </provider>
@@ -120,31 +131,43 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Product.php" />
-        <option value="$PROJECT_DIR$/Invoice.php" />
-        <option value="$PROJECT_DIR$/Customer.php" />
-        <option value="$PROJECT_DIR$/InvoiceLine.php" />
-        <option value="$PROJECT_DIR$/runner.php" />
-        <option value="$PROJECT_DIR$/DataSetGenerator.php" />
-        <option value="$PROJECT_DIR$/ScenarioGenerator.php" />
         <option value="$PROJECT_DIR$/scenarioGenerator/UpdateOperation.php" />
         <option value="$PROJECT_DIR$/scenarioGenerator/InsertOperation.php" />
-        <option value="$PROJECT_DIR$/scenarioGenerator/DeleteOperation.php" />
         <option value="$PROJECT_DIR$/scenarioGenerator/Operation.php" />
+        <option value="$PROJECT_DIR$/scenarioGenerator/DeleteOperation.php" />
+        <option value="$PROJECT_DIR$/ScenarioGenerator.php" />
+        <option value="$PROJECT_DIR$/main.php" />
+        <option value="$PROJECT_DIR$/TimingPrinter.php" />
+        <option value="$PROJECT_DIR$/Chronometer.php" />
+        <option value="$PROJECT_DIR$/MongoDbTimingGenerator.php" />
+        <option value="$PROJECT_DIR$/ChronometerTest.php" />
+        <option value="$PROJECT_DIR$/Invoice.php" />
+        <option value="$PROJECT_DIR$/Customer.php" />
+        <option value="$PROJECT_DIR$/Product.php" />
+        <option value="$PROJECT_DIR$/InvoiceLine.php" />
+        <option value="$PROJECT_DIR$/JSONEncodingTest.php" />
+        <option value="$PROJECT_DIR$/DataSetGenerator.php" />
       </list>
     </option>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="Unnamed" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="php 5.4.11">
+    <include_path>
+      <path value="C:\php\pear" />
+    </include_path>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1458" />
     <option name="height" value="882" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -189,20 +212,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="datasetGenerator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RandomDataSetGenerator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scenarioGenerator" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -210,18 +219,42 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="SQL Dialects" />
+    <property name="options.lastSelected" value="reference.webide.settings.project.settings.php" />
     <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
-  <component name="RunManager" selected="PHP Script.runner.php">
-    <configuration default="false" name="runner.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/runner.php">
+  <component name="RunManager" selected="PHPUnit.checkAccummulates">
+    <configuration default="false" name="checkAccummulates" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="ChronometerTest" file="$PROJECT_DIR$/ChronometerTest.php" method="checkAccummulates" scope="Method" />
+      <RunnerSettings RunnerId="PhpRunner" />
+      <RunnerSettings RunnerId="PhpUnitDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpUnitDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="JSONEncodingTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="JSONEncodingTest" file="$PROJECT_DIR$/JSONEncodingTest.php" scope="Class" />
+      <RunnerSettings RunnerId="PhpRunner" />
+      <RunnerSettings RunnerId="PhpUnitDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpUnitDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="roundTripInvoiceLine" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="JSONEncodingTest" file="$PROJECT_DIR$/JSONEncodingTest.php" method="roundTripInvoiceLine" scope="Method" />
       <RunnerSettings RunnerId="PhpRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="DataSetGenerator.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/DataSetGenerator.php">
+    <configuration default="false" name="roundTripProduct" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="JSONEncodingTest" file="$PROJECT_DIR$/JSONEncodingTest.php" method="roundTripProduct" scope="Method" />
+      <RunnerSettings RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="main.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/main.php">
       <RunnerSettings RunnerId="PhpRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
       <method />
@@ -233,14 +266,20 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="PHP Script.runner.php" />
-      <item index="1" class="java.lang.String" itemvalue="PHP Script.DataSetGenerator.php" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="PHPUnit.checkAccummulates" />
+      <item index="1" class="java.lang.String" itemvalue="PHPUnit.JSONEncodingTest" />
+      <item index="2" class="java.lang.String" itemvalue="PHPUnit.roundTripInvoiceLine" />
+      <item index="3" class="java.lang.String" itemvalue="PHPUnit.roundTripProduct" />
+      <item index="4" class="java.lang.String" itemvalue="PHP Script.main.php" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="PHP Script.runner.php" />
-        <item index="1" class="java.lang.String" itemvalue="PHP Script.DataSetGenerator.php" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.checkAccummulates" />
+        <item index="1" class="java.lang.String" itemvalue="PHP Script.main.php" />
+        <item index="2" class="java.lang.String" itemvalue="PHPUnit.JSONEncodingTest" />
+        <item index="3" class="java.lang.String" itemvalue="PHPUnit.roundTripProduct" />
+        <item index="4" class="java.lang.String" itemvalue="PHPUnit.roundTripInvoiceLine" />
       </list>
     </recent_temporary>
   </component>
@@ -271,24 +310,44 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1458" height="882" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.49713057" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25753227" sideWeight="0.6708861" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2826399" sideWeight="0.673699" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3994374" sideWeight="0.47417504" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32630098" sideWeight="0.4354376" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32630098" sideWeight="0.55954087" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.49713057" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -345,118 +404,136 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/MongoDbTimingGenerator.php</url>
+          <line>8</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/MongoDbTimingGenerator.php</url>
+          <line>57</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/ChronometerTest.php</url>
+          <line>18</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/JSONEncodingTest.php</url>
+          <line>13</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/runner.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="34" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
+        <state line="7" column="0" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scenarioGenerator/Operation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="0.08457711" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scenarioGenerator/InsertOperation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Customer.php">
+    <entry file="file://$PROJECT_DIR$/TimingPrinter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="5" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0">
+        <state line="50" column="0" selection-start="1194" selection-end="1341" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chronometer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="22" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MongoDbTimingGenerator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="70" selection-start="1462" selection-end="1473" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Invoice.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="942" selection-end="942" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InvoiceLine.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="756" selection-end="756" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="18" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="18" selection-start="60" selection-end="60" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Invoice.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="0" selection-start="942" selection-end="942" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/InvoiceLine.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="756" selection-end="756" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Customer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="5" selection-start="551" selection-end="551" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runner.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="27" selection-start="182" selection-end="182" vertical-scroll-proportion="-5.8846154">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataSetGenerator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="20" selection-start="182" selection-end="182" vertical-scroll-proportion="-6.5384617">
+        <state line="12" column="10" selection-start="212" selection-end="212" vertical-scroll-proportion="-7.8461537">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ScenarioGenerator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="23" selection-start="29" selection-end="29" vertical-scroll-proportion="-0.65384614">
+        <state line="18" column="19" selection-start="544" selection-end="544" vertical-scroll-proportion="-10.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scenarioGenerator/UpdateOperation.php">
+    <entry file="file://$PROJECT_DIR$/Customer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="6" selection-end="35" vertical-scroll-proportion="-1.3076923">
+        <state line="14" column="0" selection-start="265" selection-end="265" vertical-scroll-proportion="-9.153846">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scenarioGenerator/InsertOperation.php">
+    <entry file="file://$PROJECT_DIR$/Product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="-1.3076923">
+        <state line="7" column="0" selection-start="68" selection-end="68" vertical-scroll-proportion="-4.576923">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scenarioGenerator/Operation.php">
+    <entry file="file://$PROJECT_DIR$/InvoiceLine.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="-1.3076923">
+        <state line="10" column="0" selection-start="138" selection-end="138" vertical-scroll-proportion="-6.5384617">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scenarioGenerator/DeleteOperation.php">
+    <entry file="file://C:/php5.4.11/pear/PHPUnit/Framework/Assert.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="0.05345912">
+        <state line="2133" column="0" selection-start="69738" selection-end="69738" vertical-scroll-proportion="-5.3461537">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JSONEncodingTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="5" selection-start="1484" selection-end="1484" vertical-scroll-proportion="-10.961538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="79" selection-end="79" vertical-scroll-proportion="-3.9230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataSetGenerator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="11" selection-start="2184" selection-end="2184" vertical-scroll-proportion="-3.7692308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChronometerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="33" selection-start="329" selection-end="329" vertical-scroll-proportion="0.5049505">
           <folding />
         </state>
       </provider>
